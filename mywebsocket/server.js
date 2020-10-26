@@ -88,6 +88,7 @@ if (SOCKETCLUSTER_LOG_LEVEL >= 2) {
 }
 
 function colorText(message, color) {
+  console.log("colorText");
   if (color) {
     return `\x1b[${color}m${message}\x1b[0m`;
   }
